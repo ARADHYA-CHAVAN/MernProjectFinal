@@ -1,0 +1,28 @@
+:root {
+  --primary: #111827;      /* Dark charcoal */
+  --primary-dark: #000000;
+  --accent: #f59e0b;       /* Gold */
+  --background: #f8fafc;
+  --card-bg: #ffffff;
+  --text: #1f2937;
+}
+
+.custom-navbar {
+  background-color: var(--primary);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+
+
+.search-box:focus {
+    border-color: #111827;
+    box-shadow: 0 0 10px rgba(17,24,39,0.15);
+}
+.course-card {
+    transition: all 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
