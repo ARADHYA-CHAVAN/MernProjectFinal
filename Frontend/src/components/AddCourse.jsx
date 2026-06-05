@@ -38,7 +38,7 @@ const AddCourse = () => {
 
                 setTimeout(() => {
                     navigate("/")
-                }, 2050)
+                }, 2000)
             })
             .catch((err) => console.log(err))
     }

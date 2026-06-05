@@ -55,7 +55,7 @@ const EditCourse = () => {
 
                 setTimeout(() => {
                     navigate(`/${id}`)
-                }, 2050)
+                }, 2000)
             })
             .catch((err) => console.log(err))
     }
